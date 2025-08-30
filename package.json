@@ -1,0 +1,25 @@
+{
+    "name": "unlimited-leads-apollo-scraper",
+    "version": "1.0.0",
+    "description": "Professional Apollo lead scraper powered by Unlimited Leads (+100M database)",
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js"
+    },
+    "dependencies": {
+        "apify": "^3.1.0",
+        "axios": "^1.6.0"
+    },
+    "keywords": [
+        "apollo-scraper",
+        "lead-generation", 
+        "unlimited-leads",
+        "b2b-leads",
+        "contact-scraper",
+        "professional-leads",
+        "apollo-automation",
+        "bulk-scraping"
+    ],
+    "author": "Unlimited Leads",
+    "license": "MIT"
+}
