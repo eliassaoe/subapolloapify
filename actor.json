@@ -1,0 +1,31 @@
+{
+    "actorSpecification": 1,
+    "name": "unlimited-leads-apollo-scraper",
+    "version": "1.0.0",
+    "buildTag": "latest",
+    "environmentVariables": {},
+    "dockerfile": "./Dockerfile",
+    "readme": "./README.md",
+    "input": "./INPUT_SCHEMA.json",
+    "storages": {
+        "dataset": {
+            "actorSpecification": 1,
+            "title": "Apollo Leads",
+            "views": {
+                "overview": {
+                    "title": "Overview",
+                    "transformation": {
+                        "fields": [
+                            "name",
+                            "email",
+                            "phone",
+                            "company",
+                            "title",
+                            "linkedinUrl"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
