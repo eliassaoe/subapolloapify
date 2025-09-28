@@ -1,6 +1,6 @@
 {
     "actorSpecification": 1,
-    "name": "unlimited-leads-apollo-scraper",
+    "name": "unlimited-leads-scraper",
     "version": "1.0.0",
     "buildTag": "latest",
     "environmentVariables": {},
@@ -10,7 +10,7 @@
     "storages": {
         "dataset": {
             "actorSpecification": 1,
-            "title": "Apollo Leads",
+            "title": "Leads Scraper",
             "views": {
                 "overview": {
                     "title": "Overview",
