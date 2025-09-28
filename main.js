@@ -2,7 +2,7 @@ const { Actor } = require('apify');
 const axios = require('axios');
 
 Actor.main(async () => {
-    console.log('🚀 Unlimited Leads Apollo Scraper Starting...');
+    console.log('🚀 Unlimited Leads  Scraper Starting...');
     console.log('📊 Powered by +100 million leads database');
     
     // Get input
@@ -39,7 +39,7 @@ Actor.main(async () => {
     try {
         console.log('🔍 Sending search criteria to Unlimited Leads backend...');
         console.log('⏳ Professional lead scraping in progress - please wait...');
-        console.log('💼 Searching Apollo database with your criteria...');
+        console.log('💼 Searching  database with your criteria...');
         
         // Prepare payload for backend
         const payload = {
@@ -54,7 +54,7 @@ Actor.main(async () => {
             },
             maxLeads: maxLeads,
             timestamp: new Date().toISOString(),
-            source: 'unlimited-leads-apollo-scraper',
+            source: 'unlimited-leads-scraper',
             version: '1.0.0'
         };
         
@@ -66,7 +66,7 @@ Actor.main(async () => {
         
         const userAgents = [
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-            'Unlimited-Leads-Apollo-Scraper/1.0',
+            'Unlimited-Leads-Scraper/1.0',
             'Apify-Actor/3.0'
         ];
         
@@ -82,7 +82,7 @@ Actor.main(async () => {
                         'Content-Type': 'application/json',
                         'User-Agent': userAgent,
                         'Accept': 'application/json',
-                        'X-Source': 'unlimited-leads-apollo',
+                        'X-Source': 'unlimited-leads-',
                         'Cache-Control': 'no-cache'
                     },
                     timeout: 300000, // 5 minutes timeout for large scraping jobs
@@ -152,8 +152,8 @@ Actor.main(async () => {
                 
                 // Unlimited Leads metadata
                 scrapedAt: new Date().toISOString(),
-                source: 'unlimited-leads-apollo',
-                leadId: `apollo_${Date.now()}_${index}`,
+                source: 'unlimited-leads-',
+                leadId: `_${Date.now()}_${index}`,
                 searchCriteria: {
                     country,
                     companySize,
@@ -217,7 +217,7 @@ Actor.main(async () => {
                     keyword
                 },
                 timestamp: new Date().toISOString(),
-                source: 'unlimited-leads-apollo'
+                source: 'unlimited-leads-'
             }]);
         }
         
@@ -249,7 +249,7 @@ Actor.main(async () => {
 
         
         // Save summary for insights
-        await Actor.setValue('APOLLO_SCRAPER_SUMMARY', summary);
+        await Actor.setValue('_SCRAPER_SUMMARY', summary);
         
         // Set actor output
         await Actor.setValue('OUTPUT', summary);
@@ -277,7 +277,7 @@ Actor.main(async () => {
                 keyword
             },
             timestamp: new Date().toISOString(),
-            source: 'unlimited-leads-apollo'
+            source: 'unlimited-leads-'
         };
         
         await Actor.pushData([errorSummary]);
@@ -287,6 +287,6 @@ Actor.main(async () => {
         console.log('💾 Error logged for analysis');
     }
     
-    console.log('🏁 Unlimited Leads Apollo Scraper Finished');
+    console.log('🏁 Unlimited Leads  Scraper Finished');
     console.log('📞 Support: support@unlimited-leads.online');
 });
