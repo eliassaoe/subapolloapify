@@ -1,11 +1,11 @@
-# Unlimited Leads Apollo Scraper ✅ $29/month Rental ✅
-Professional Apollo lead scraper powered by Unlimited Leads' +100 million contacts database.
+# Unlimited Leads Scraper ✅ $29/month Rental ✅
+Professional  lead scraper powered by Unlimited Leads' +100 million contacts database.
 
 ## 🚀 Features
-✅ **No Apollo Account Required** - Works without login or credits  
-✅ **Unlimited Scraping** - Bypass Apollo's limitations  
+✅ **No  Account Required** - Works without login or credits  
+✅ **Unlimited Scraping** - Bypass 's limitations  
 ✅ **Professional Data Quality** - Powered by +100M leads database  
-✅ **Email & Phone Enrichment** - Get contact details Apollo doesn't show  
+✅ **Email & Phone Enrichment** - Get contact details  doesn't show  
 ✅ **Bulk Processing** - Up to 10,000 leads per run  
 ✅ **Export Ready** - Clean data in CSV/JSON format  
 
@@ -28,22 +28,22 @@ Each lead includes professional contact information:
   "linkedinUrl": "https://linkedin.com/in/johnsmith",
   "location": "San Francisco, CA",
   "scrapedAt": "2025-05-30T12:34:56.789Z",
-  "source": "unlimited-leads-apollo",
-  "leadId": "apollo_1717077296789_0",
-  "apolloUrl": "https://app.apollo.io/#/people?...",
+  "source": "unlimited-leads-",
+  "leadId": "_1717077296789_0",
+  "Url": "https://app..io/#/people?...",
   "dataQuality": "professional",
   "verified": false
 }
 ```
 
 ## 🔧 How to Use
-**Get Apollo Search URL:**
-1. Go to Apollo.io
+**Get  Search URL:**
+1. Go to .io
 2. Set up your search filters (company, location, title, etc.)
 3. Copy the search URL from your browser
 
 **Run the Actor:**
-1. Paste the Apollo URL
+1. Paste the  URL
 2. Set maximum leads (up to 10,000)
 3. Click "Start"
 
@@ -51,14 +51,14 @@ Each lead includes professional contact information:
 1. Export leads as CSV or JSON
 2. Import into your CRM or tools
 
-## ⚡ Why Choose Unlimited Leads Apollo Scraper?
+## ⚡ Why Choose Unlimited Leads  Scraper?
 
-**vs. Apollo Free Plan:**
-- Apollo: 5 pages max, limited contacts
+**vs.  Free Plan:**
+- : 5 pages max, limited contacts
 - Us: Unlimited pages, 10k leads per run
 
-**vs. Apollo Paid Plans:**
-- Apollo: $49-199/month for limited credits
+**vs.  Paid Plans:**
+- : $49-199/month for limited credits
 - Us: $29/month unlimited usage
 
 **vs. Other Scrapers:**
@@ -66,8 +66,8 @@ Each lead includes professional contact information:
 - Us: Professional enrichment, +100M database matching
 
 ## 🔍 Data Quality
-Our scraper doesn't just extract Apollo's visible data - it enriches each lead using our professional database:
-- **Email Discovery:** Find emails Apollo doesn't show
+Our scraper doesn't just extract 's visible data - it enriches each lead using our professional database:
+- **Email Discovery:** Find emails  doesn't show
 - **Phone Enrichment:** Add phone numbers from our database
 - **Data Verification:** Cross-reference with +100M contacts
 - **Profile Completion:** Fill missing fields automatically
@@ -80,7 +80,7 @@ Our scraper doesn't just extract Apollo's visible data - it enriches each lead u
 - **Competitive Analysis:** Research competitor teams
 
 ## 🛡️ Compliance & Ethics
-- Respects Apollo's terms of service
+- Respects 's terms of service
 - Professional use only
 - GDPR compliant data handling
 - No personal data misuse
