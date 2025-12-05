@@ -36,35 +36,6 @@ Each lead includes professional contact information:
 }
 ```
 
-## 🔧 How to Use
-**Get  Search URL:**
-1. Go to .io
-2. Set up your search filters (company, location, title, etc.)
-3. Copy the search URL from your browser
-
-**Run the Actor:**
-1. Paste the  URL
-2. Set maximum leads (up to 10,000)
-3. Click "Start"
-
-**Download Results:**
-1. Export leads as CSV or JSON
-2. Import into your CRM or tools
-
-## ⚡ Why Choose Unlimited Leads  Scraper?
-
-**vs.  Free Plan:**
-- : 5 pages max, limited contacts
-- Us: Unlimited pages, 10k leads per run
-
-**vs.  Paid Plans:**
-- : $49-199/month for limited credits
-- Us: $29/month unlimited usage
-
-**vs. Other Scrapers:**
-- Others: Basic scraping, cookie management required
-- Us: Professional enrichment, +100M database matching
-
 ## 🔍 Data Quality
 Our scraper doesn't just extract 's visible data - it enriches each lead using our professional database:
 - **Email Discovery:** Find emails  doesn't show
